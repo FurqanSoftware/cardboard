@@ -12,4 +12,8 @@ case $CMD in
 		docker push cardboard/$BOX:`cat $BOX/VERSION`
 		;;
 
+	run)
+		docker run -ti cardboard/$BOX:`cat $BOX/VERSION` /bin/sh
+		;;
+
 esac
