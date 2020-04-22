@@ -15,5 +15,4 @@ case $CMD in
 	run)
 		docker run -ti cardboard/$BOX:`cat $BOX/VERSION` /bin/sh
 		;;
-
 esac
