@@ -1,4 +1,4 @@
-FROM golang:1.12
+FROM golang:1.13
 
 MAINTAINER Mahmud Ridwan <ridwan@furqansoftware.com>
 
